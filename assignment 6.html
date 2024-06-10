@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, aside, footer {
+            padding: 20px;
+            margin: 10px;
+        }
+        header, footer {
+            background-color: #f2f2f2;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        main {
+            display: flex;
+        }
+        article {
+            flex: 3;
+            margin-right: 20px;
+        }
+        aside {
+            flex: 1;
+        }
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Welcome to My Website</h2>
+            <p>This is the main content of the website. Here you can find various articles and information about different topics.</p>
+            <p>Feel free to explore the site and learn more about what we have to offer. We update our content regularly, so check back often!</p>
+        </article>
+        <aside>
+            <h3>Related Links</h3>
+            <ul>
+                <li><a href="https://www.apple.com/in/">Related Link 1</a></li>
+                <li><a href="#link2">Related Link 2</a></li>
+                <li><a href="#link3">Related Link 3</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>Contact us: <a href="mailto:support@skolar.in">contact@example.com</a></p>
+    </footer>
+</body>
+</html>

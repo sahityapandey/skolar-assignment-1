@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Media Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .media-container {
+            margin-bottom: 30px;
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Elements </h1>
+
+    <div class="media-container">
+        <h2>Audio Player</h2>
+        <p>Below is an audio player for a sample audio file. You can play, pause, and control the volume using the controls provided.</p>
+        <audio controls>
+            <source src="/Users/sahityapandey/Desktop/first project/solar project/B.wav" type="audio/mpeg">
+            Your browser not support this audio element
+        </audio>
+    </div>
+
+    <div class="media-container">
+        <h2>Video Player</h2>
+        <p>Below is a video player for a sample video file. You can play, pause, and control the volume and playback using the controls provided.</p>
+        <video controls width="600">
+            <source src="https://www.pexels.com/video/a-magnificent-view-of-the-waterfalls-6981411/" type="video/mp4">
+            Your browser not support this video element.
+        </video>
+    </div>
+</body>
+</html>
